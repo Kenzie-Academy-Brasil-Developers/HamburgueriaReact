@@ -1,0 +1,20 @@
+.flexDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.listSection {
+  margin: 15px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 80%;
+}
+
+@media (min-width: 800px) {
+  .listSection {
+    overflow: visible;
+    flex-wrap: wrap;
+  }
+}
